@@ -1,3 +1,57 @@
+# Network Packet Analyzer 🕵️‍♂️📡
+
+A **GUI-based Network Packet Analyzer** built using **Python**.  
+This application captures live network packets, analyzes network protocols, detects high traffic, and generates a final analysis report.
+
+---
+
+## 🚀 Features
+
+- Live network packet capturing  
+- Supports **TCP, UDP, ICMP** protocols  
+- Displays source & destination IP addresses and ports  
+- High traffic detection with real-time warnings  
+- Generates a final network analysis report  
+- Easy-to-use **GUI application**  
+- Can be converted into a standalone **Windows EXE**
+
+---
+
+## 🧠 Technologies Used
+
+- Python 3  
+- Scapy  
+- Tkinter (GUI)  
+- PyInstaller (for EXE build)  
+- Git & GitHub  
+
+---
+
+## 📁 Project Structure
+
+
+NetworkPacketAnalyzer/
+├── analyzer/ # Packet analysis & report generation
+├── capture/ # Packet capturing logic
+├── gui/ # GUI application
+├── main.py # Entry point
+├── test_report.py # Testing script
+└── README.md
+
+
+---
+
+## ▶️ How to Run (Using Python)
+
+### 1️⃣ Install Dependencies
+
+```bash
+pip install scapy
+2️⃣ Run the GUI Application
+python -m gui.gui_app
+
+⚠️ Important:
+You must run Command Prompt as Administrator to allow packet capturing.
 📊 Output
 🔹 Live Packet Capture
 
