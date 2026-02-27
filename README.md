@@ -1,113 +1,172 @@
 # Network Packet Analyzer 🕵️‍♂️📡
 
-A **GUI-based Network Packet Analyzer** built using **Python**.  
-This application captures live network packets, analyzes network protocols, detects high traffic activity, and generates a final network analysis report.
+A **GUI-based Network Packet Analyzer** built using **Python** that captures live network packets, analyzes protocols, detects abnormal traffic, and generates a final network analysis report.
 
-This project is ideal for **Computer Networks students, beginners, and cybersecurity learners**, and it can also be shared as a **standalone Windows application**.
+This project is designed for **learning computer networks**, **cybersecurity basics**, and **final-year / mini-project submissions**.
+
+---
+
+## 📌 Table of Contents
+- [Features](#-features)
+- [Technologies Used](#-technologies-used)
+- [Project Structure](#-project-structure)
+- [How It Works](#-how-it-works)
+- [Installation & Setup](#-installation--setup)
+- [How to Run](#-how-to-run)
+- [Windows EXE Version](#-windows-exe-version)
+- [Output & Reports](#-output--reports)
+- [Use Cases](#-use-cases)
+- [Limitations](#-limitations)
+- [Future Enhancements](#-future-enhancements)
+- [Author](#-author)
+- [Disclaimer](#-disclaimer)
 
 ---
 
 ## 🚀 Features
-
 - Live network packet capturing
-- Supports **TCP, UDP, and ICMP** protocols
-- Displays source & destination IP addresses and ports
-- High traffic detection with real-time warnings
-- Generates a detailed final network analysis report
-- Easy-to-use **GUI application**
+- Supports **TCP**, **UDP**, and **ICMP**
+- Displays:
+  - Source IP & Destination IP
+  - Source Port & Destination Port
+  - Protocol type
+- High traffic detection with warnings
+- Final network analysis report generation
+- Graphical User Interface (GUI)
 - Can be converted into a **standalone Windows EXE**
 
 ---
 
 ## 🧠 Technologies Used
-
 - **Python 3**
-- **Scapy** – Packet capturing and analysis
+- **Scapy** – packet capturing and decoding
 - **Tkinter** – GUI development
-- **PyInstaller** – Windows EXE generation
-- **Git & GitHub** – Version control
+- **PyInstaller** – EXE creation
+- **Git & GitHub** – version control
 
 ---
 
 ## 📁 Project Structure
 
-```text
 NetworkPacketAnalyzer/
-├── analyzer/       # Packet analysis & report generation
-│   ├── protocol_decoder.py
-│   └── final_report.py
-├── capture/        # Packet capturing logic
-│   └── packet_capture.py
-├── gui/            # GUI application
-│   └── gui_app.py
-├── main.py         # Optional entry point
-├── test_report.py  # Testing script
-└── README.md       # Project documentation
-▶️ How to Run (Using Python)
-1️⃣ Install Dependencies
+│
+├── analyzer/ # Packet analysis & report generation
+│ ├── protocol_decoder.py
+│ └── final_report.py
+│
+├── capture/ # Packet capturing logic
+│ └── packet_capture.py
+│
+├── gui/ # GUI application
+│ └── gui_app.py
+│
+├── main.py # Entry point
+├── test_report.py # Testing script
+├── README.md # Project documentation
+└── .gitignore # Git ignore rules
 
-Ensure Python 3 is installed, then run:
 
+---
+
+## ⚙️ How It Works
+1. The application captures live network packets using **Scapy**
+2. Each packet is decoded to extract:
+   - IP addresses
+   - Ports
+   - Protocol
+3. Packet statistics are maintained internally
+4. High traffic from a single IP is detected using thresholds
+5. A **final report** is generated after capture completes
+6. All results are shown in the **GUI**
+
+---
+
+## 🛠 Installation & Setup
+
+### 1️⃣ Prerequisites
+- Python **3.9 or higher**
+- Windows OS
+- Administrator privileges (required for packet capture)
+
+### 2️⃣ Install Dependencies
+```bash
 pip install scapy
-2️⃣ Run the GUI Application
+▶️ How to Run
+
+⚠️ IMPORTANT:
+Run Command Prompt as Administrator (required for capturing packets).
+
 python -m gui.gui_app
 
-⚠️ Important:
-Packet capturing requires Administrator privileges.
-Always run the Command Prompt as Administrator.
+The GUI window will open and start capturing packets.
 
-📊 Output
-🔹 Live Packet Capture
+🪟 Windows EXE Version (No Python Needed)
 
-Displays real-time packet details:
+You can build a standalone EXE using PyInstaller:
 
-Source IP
+pyinstaller --onefile --windowed gui/gui_app.py
 
-Destination IP
+After build:
 
-Protocol
+dist/gui_app.exe
 
-Source & destination ports
+This EXE:
 
-🔹 High Traffic Detection
+Does NOT require Python
 
-Detects excessive packet flow from specific IP addresses
+Can be shared with anyone
 
-Displays warning messages in real time
+Runs on any Windows PC
 
-🔹 Final Network Analysis Report
+📌 Recommended to upload the EXE using GitHub Releases.
+
+📊 Output & Reports
+
+Live packet details shown in GUI
+
+High traffic warnings displayed in real time
+
+Final report includes:
 
 Total packets captured
 
-Packet count per IP and protocol
+Packet count per IP
 
-List of detected high-traffic IPs
+Protocol-wise statistics
 
-Generated automatically after capture
-
-🪟 Windows EXE (No Python Required)
-
-This application can be used without installing Python by running the Windows executable.
-
-🔽 How to Use
-
-Go to GitHub → Releases
-
-Download gui_app.exe
-
-Run the EXE as Administrator
+Detected anomalies
 
 🎓 Use Cases
 
-Computer Networks mini / final year project
+Computer Networks mini / final-year project
 
-Learning packet sniffing and protocol analysis
+Cybersecurity fundamentals practice
 
-Understanding TCP, UDP, and ICMP behavior
+Packet analysis learning tool
 
-Introduction to cybersecurity & network monitoring
+Network monitoring demonstration
 
-Building real-world GUI-based Python applications
+⚠️ Limitations
+
+Works only on Windows
+
+Requires administrator access
+
+Not intended for production network monitoring
+
+Educational use only
+
+🚀 Future Enhancements
+
+Protocol-wise graphs (TCP/UDP/ICMP)
+
+Export report as PDF
+
+Advanced attack detection (SYN flood, port scan)
+
+Cross-platform support
+
+Improved GUI design
 
 👨‍💻 Author
 
@@ -121,4 +180,4 @@ Do NOT use this application on networks without proper authorization.
 
 The author is not responsible for any misuse of this software.
 
-⭐ If you found this project useful, consider giving it a star on GitHub!
+⭐ If you found this project helpful, consider giving it a star on GitHub!
