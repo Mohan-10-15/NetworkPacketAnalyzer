@@ -30,14 +30,20 @@ This application captures live network packets, analyzes network protocols, dete
 ## 📁 Project Structure
 
 
+## 📁 Project Structure
+
+```text
 NetworkPacketAnalyzer/
 ├── analyzer/       # Packet analysis & report generation
+│   ├── protocol_decoder.py
+│   └── final_report.py
 ├── capture/        # Packet capturing logic
+│   └── packet_capture.py
 ├── gui/            # GUI application
-├── main.py         # Entry point
+│   └── gui_app.py
+├── main.py         # Optional entry point
 ├── test_report.py  # Testing script
 └── README.md       # Project documentation
----
 
 ## ▶️ How to Run (Using Python)
 
