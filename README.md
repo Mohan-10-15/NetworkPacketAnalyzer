@@ -31,14 +31,12 @@ This application captures live network packets, analyzes network protocols, dete
 
 
 NetworkPacketAnalyzer/
-├── analyzer/ # Packet analysis & report generation
-├── capture/ # Packet capturing logic
-├── gui/ # GUI application
-├── main.py # Entry point
-├── test_report.py # Testing script
-└── README.md
-
-
+├── analyzer/       # Packet analysis & report generation
+├── capture/        # Packet capturing logic
+├── gui/            # GUI application
+├── main.py         # Entry point
+├── test_report.py  # Testing script
+└── README.md       # Project documentation
 ---
 
 ## ▶️ How to Run (Using Python)
