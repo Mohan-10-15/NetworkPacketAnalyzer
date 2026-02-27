@@ -171,8 +171,7 @@ Improved GUI design
 ## 👨‍💻 Author
 
 **Mohan**  
-GitHub: [Mohan-10-15](https://github.com/Mohan-10-15)
-
+🔗 GitHub: https://github.com/Mohan-10-15
 ⚠️ Disclaimer
 
 This project is strictly for educational and learning purposes only.
