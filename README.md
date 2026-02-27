@@ -125,10 +125,10 @@ Advanced attack detection
 
 Cross-platform support
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Mohan
-🔗 GitHub: https://github.com/Mohan-10-15
+**Mohan**  
+GitHub: https://github.com/Mohan-10-15
 
 ⚠️ Disclaimer
 
