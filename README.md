@@ -127,8 +127,7 @@ Cross-platform support
 ## 👨‍💻 Author
 
 **Mohan**  
-🔗 https://github.com/Mohan-10-15
-
+https://github.com/Mohan-10-15
 ⚠️ Disclaimer
 
 This project is strictly for educational purposes only.
