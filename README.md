@@ -1,74 +1,33 @@
-# Network Packet Analyzer 🕵️‍♂️📡
-
-A GUI-based Network Packet Analyzer built using Python.  
-This project captures live network packets, analyzes protocols, detects high traffic, and generates a final analysis report.
-
----
-
-## 🚀 Features
-- Live packet capturing
-- Supports TCP, UDP, ICMP protocols
-- Source & destination IP and port analysis
-- High traffic detection with warnings
-- Final network analysis report
-- GUI-based application (easy to use)
-- Can be converted into a standalone Windows EXE
-
----
-
-## 🧠 Technologies Used
-- Python 3
-- Scapy
-- Tkinter (GUI)
-- PyInstaller (for EXE build)
-- Git & GitHub
-
----
-
-## 📁 Project Structure
-NetworkPacketAnalyzer/
-│
-├── analyzer/ # Packet analysis & report generation
-├── capture/ # Packet capturing logic
-├── gui/ # GUI application
-├── main.py # Entry point
-├── test_report.py # Testing script
-└── README.md
-
-
----
-
-## ▶️ How to Run (Using Python)
-
-### 1️⃣ Install dependencies
-```bash
-pip install scapy
-2️⃣ Run the GUI
-python -m gui.gui_app
-
-⚠️ Run Command Prompt as Administrator (required for packet capture)
-
-🪟 Windows EXE (No Python Needed)
-
-You can download the ready-to-use Windows EXE from the Releases section.
-
-➡️ Go to Releases → Download gui_app.exe
-
 📊 Output
+🔹 Live Packet Capture
 
-Live packet details shown in GUI
+🔹 High Traffic Warning
 
-High traffic warnings displayed in real-time
+🔹 Final Network Analysis Report
 
-Final analysis report generated after capture
+🪟 Windows EXE (No Python Required)
+
+You can run this application without installing Python by using the Windows executable.
+
+🔽 Download EXE
+
+Go to GitHub → Releases
+
+Download gui_app.exe
+
+Run it as Administrator
 
 🎓 Use Cases
 
 Computer Networks mini / final year project
 
-Learning packet analysis & network monitoring
+Learning packet sniffing & protocol analysis
 
-Cybersecurity fundamentals practice
+Understanding TCP, UDP, ICMP behavior
+
+Introduction to cybersecurity & network monitoring
+
+Building real-world GUI-based Python applications
 
 👨‍💻 Author
 
@@ -77,33 +36,9 @@ GitHub: https://github.com/Mohan-10-15
 
 ⚠️ Disclaimer
 
-This project is for educational purposes only.
+This project is strictly for educational and learning purposes.
+Do NOT use this application on networks without proper authorization.
+The author is not responsible for any misuse.
 
+⭐ If you found this project helpful, consider giving it a star on GitHub!
 
-### 4️⃣ Save the file  
-Close Notepad
-
----
-
-# ✅ STEP 3: Add README.md to GitHub
-
-Open **Command Prompt** in your project folder and run:
-
-```bat
-git status
-
-You should see:
-
-README.md
-
-Now add it:
-
-git add README.md
-
-Commit it:
-
-git commit -m "Add professional README"
-
-Push to GitHub:
-
-git push
