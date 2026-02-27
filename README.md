@@ -1,86 +1,95 @@
 # Network Packet Analyzer 🕵️‍♂️📡
 
 A **GUI-based Network Packet Analyzer** built using **Python**.  
-This application captures live network packets, analyzes network protocols, detects high traffic, and generates a final analysis report.
+This application captures live network packets, analyzes network protocols, detects high traffic activity, and generates a final network analysis report.
+
+This project is ideal for **Computer Networks students, beginners, and cybersecurity learners**, and it can also be shared as a **standalone Windows application**.
 
 ---
 
 ## 🚀 Features
 
-- Live network packet capturing  
-- Supports **TCP, UDP, ICMP** protocols  
-- Displays source & destination IP addresses and ports  
-- High traffic detection with real-time warnings  
-- Generates a final network analysis report  
-- Easy-to-use **GUI application**  
-- Can be converted into a standalone **Windows EXE**
+- Live network packet capturing
+- Supports **TCP, UDP, and ICMP** protocols
+- Displays source & destination IP addresses and ports
+- High traffic detection with real-time warnings
+- Generates a detailed final network analysis report
+- Easy-to-use **GUI application**
+- Can be converted into a **standalone Windows EXE**
 
 ---
 
 ## 🧠 Technologies Used
 
-- Python 3  
-- Scapy  
-- Tkinter (GUI)  
-- PyInstaller (for EXE build)  
-- Git & GitHub  
+- **Python 3**
+- **Scapy** – Packet capturing and analysis
+- **Tkinter** – GUI development
+- **PyInstaller** – Windows EXE generation
+- **Git & GitHub** – Version control
 
 ---
 
 ## 📁 Project Structure
 
-
+```text
 NetworkPacketAnalyzer/
-├── analyzer/ # Packet analysis & report generation
-├── capture/ # Packet capturing logic
-├── gui/ # GUI application
-├── main.py # Entry point
-├── test_report.py # Testing script
-└── README.md
+├── analyzer/       # Packet analysis & report generation
+│   ├── protocol_decoder.py
+│   └── final_report.py
+├── capture/        # Packet capturing logic
+│   └── packet_capture.py
+├── gui/            # GUI application
+│   └── gui_app.py
+├── main.py         # Optional entry point
+├── test_report.py  # Testing script
+└── README.md       # Project documentation
+▶️ How to Run (Using Python)
+1️⃣ Install Dependencies
 
+Ensure Python 3 is installed, then run:
 
----
-
-## ▶️ How to Run (Using Python)
-
-### 1️⃣ Install Dependencies
-
-```bash
 pip install scapy
 2️⃣ Run the GUI Application
 python -m gui.gui_app
 
 ⚠️ Important:
-You must run Command Prompt as Administrator to allow packet capturing.
+Packet capturing requires Administrator privileges.
+Always run the Command Prompt as Administrator.
 
 📊 Output
 🔹 Live Packet Capture
 
-Shows packets in real time
+Displays real-time packet details:
 
-Displays protocol, source IP, destination IP, and ports
+Source IP
 
-🔹 High Traffic Warning
+Destination IP
 
-Detects unusually high traffic from a single IP
+Protocol
 
-Displays warning alerts inside the GUI
+Source & destination ports
+
+🔹 High Traffic Detection
+
+Detects excessive packet flow from specific IP addresses
+
+Displays warning messages in real time
 
 🔹 Final Network Analysis Report
 
 Total packets captured
 
-Protocol-wise packet count
+Packet count per IP and protocol
 
-IP-wise traffic summary
+List of detected high-traffic IPs
 
-Warning summary
+Generated automatically after capture
 
 🪟 Windows EXE (No Python Required)
 
-You can use this application without installing Python by running the Windows executable.
+This application can be used without installing Python by running the Windows executable.
 
-🔽 How to Use EXE
+🔽 How to Use
 
 Go to GitHub → Releases
 
@@ -92,9 +101,9 @@ Run the EXE as Administrator
 
 Computer Networks mini / final year project
 
-Learning packet sniffing & protocol analysis
+Learning packet sniffing and protocol analysis
 
-Understanding TCP, UDP, ICMP behavior
+Understanding TCP, UDP, and ICMP behavior
 
 Introduction to cybersecurity & network monitoring
 
@@ -107,8 +116,9 @@ GitHub: https://github.com/Mohan-10-15
 
 ⚠️ Disclaimer
 
-This project is strictly for educational purposes only.
+This project is strictly for educational and learning purposes only.
 Do NOT use this application on networks without proper authorization.
-The author is not responsible for any misuse.
 
-⭐ If you found this project helpful, consider giving it a star on GitHub!
+The author is not responsible for any misuse of this software.
+
+⭐ If you found this project useful, consider giving it a star on GitHub!
