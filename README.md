@@ -43,81 +43,53 @@ NetworkPacketAnalyzer/
 ├── main.py         # Optional entry point
 ├── test_report.py  # Testing script
 └── README.md       # Project documentation
-▶️ How to Run (Using Python)
-1️⃣ Install Dependencies
 
-Make sure Python 3 is installed, then run:
 
-pip install scapy
-2️⃣ Run the GUI Application
-python -m gui.gui_app
 
-⚠️ Important:
-You must run Command Prompt as Administrator to allow packet capturing.
+```markdown
+## 📊 Output
 
-📊 Output
-🔹 Live Packet Capture
+### 🔹 Live Packet Capture
+Displays real-time packet information including:
+- Source IP
+- Destination IP
+- Protocol
+- Source and destination ports
 
-Displays real-time packet information:
+### 🔹 High Traffic Warning
+Detects excessive packet flow from specific IP addresses and displays real-time warning messages.
 
-Source IP
+### 🔹 Final Network Analysis Report
+Generates a summary report containing:
+- Total packets captured
+- Packet count per IP and protocol
+- List of detected high-traffic IPs
 
-Destination IP
+## 🎓 Use Cases
 
-Protocol
+- Computer Networks mini / final year project
+- Learning packet sniffing and protocol analysis
+- Understanding TCP, UDP, and ICMP behavior
+- Introduction to cybersecurity & network monitoring
+- Building real-world GUI-based Python applications
 
-Source & destination ports
+## 🪟 Windows EXE (No Python Required)
 
-🔹 High Traffic Warning
+This application can be used without installing Python by running the Windows executable.
 
-Detects excessive packet flow from specific IP addresses
+### 🔽 How to Use
+1. Go to **GitHub → Releases**
+2. Download `gui_app.exe`
+3. Run the application as **Administrator**
 
-Displays warning messages in real time
+## ⚠️ Disclaimer
 
-🔹 Final Network Analysis Report
-
-Total packets captured
-
-Packet count per IP and protocol
-
-Detected high-traffic IPs
-
-Automatically generated after capture
-
-🪟 Windows EXE (No Python Required)
-
-You can run this application without installing Python by using the Windows executable.
-
-🔽 Download EXE
-
-Go to GitHub → Releases
-
-Download gui_app.exe
-
-Run the EXE as Administrator
-
-🎓 Use Cases
-
-Computer Networks mini / final year project
-
-Learning packet sniffing and protocol analysis
-
-Understanding TCP, UDP, and ICMP behavior
-
-Introduction to cybersecurity & network monitoring
-
-Building real-world GUI-based Python applications
-
-👨‍💻 Author
-
-Mohan
-GitHub: https://github.com/Mohan-10-15
-
-⚠️ Disclaimer
-
-This project is strictly for educational and learning purposes only.
-Do NOT use this application on networks without proper authorization.
-
+This project is strictly for educational and learning purposes only.  
+Do **NOT** use this application on networks without proper authorization.  
 The author is not responsible for any misuse of this software.
 
-⭐ If you found this project helpful, consider giving it a star on GitHub!
+## ⚠️ Disclaimer
+
+This project is strictly for educational and learning purposes only.  
+Do **NOT** use this application on networks without proper authorization.  
+The author is not responsible for any misuse of this software.
