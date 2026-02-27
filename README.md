@@ -124,11 +124,10 @@ PDF report export
 Advanced attack detection
 
 Cross-platform support
-
 ## 👨‍💻 Author
 
-**Mohan**  
-GitHub: https://github.com/Mohan-10-15
+Mohan  
+https://github.com/Mohan-10-15
 
 ⚠️ Disclaimer
 
