@@ -126,7 +126,7 @@ Advanced attack detection
 Cross-platform support
 ## 👨‍💻 Author
 
-**Mohan**  
+Mohan  
 
 ⚠️ Disclaimer
 
