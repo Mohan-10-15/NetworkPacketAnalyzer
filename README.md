@@ -1,37 +1,72 @@
-# Network Packet Analyzer 🕵️‍♂️📡
+🕵️‍♂️ Network Packet Analyzer 📡
 
-A **GUI-based Network Packet Analyzer** built using **Python** that captures live network packets, analyzes protocols, detects abnormal traffic, and generates a final network analysis report.
+A GUI-based Network Packet Analyzer built using Python that captures live network packets, analyzes network protocols, detects abnormal traffic, and generates a final network analysis report.
 
-This project is designed for **Computer Networks learning**, **Cybersecurity basics**, and **mini / final-year project submissions**.
+This project is intended for Computer Networks learning, Cybersecurity fundamentals, and mini / final-year academic projects.
 
----
+📌 Table of Contents
 
-## 🚀 Features
-- Live network packet capturing  
-- Supports **TCP, UDP, ICMP**  
-- Displays:
-  - Source IP & Destination IP  
-  - Source Port & Destination Port  
-  - Protocol type  
-- High traffic detection with warnings  
-- Final network analysis report generation  
-- Graphical User Interface (GUI)  
-- Standalone **Windows EXE** support  
+Features
 
----
+Technologies Used
 
-## 🧠 Technologies Used
-- Python 3  
-- Scapy  
-- Tkinter  
-- PyInstaller  
-- Git & GitHub  
+Project Structure
 
----
+How It Works
 
-## 📁 Project Structure
+Installation & Setup
 
-```text
+How to Run
+
+Windows EXE Version
+
+Output & Reports
+
+Use Cases
+
+Limitations
+
+Future Enhancements
+
+Author
+
+Disclaimer
+
+🚀 Features
+
+Live network packet capturing
+
+Supports TCP, UDP, and ICMP protocols
+
+Displays:
+
+Source IP & Destination IP
+
+Source Port & Destination Port
+
+Protocol type
+
+High-traffic detection with real-time warnings
+
+Final network analysis report generation
+
+User-friendly Graphical User Interface (GUI)
+
+Can be converted into a standalone Windows EXE
+
+🧠 Technologies Used
+
+Python 3
+
+Scapy – packet capturing and decoding
+
+Tkinter – GUI development
+
+PyInstaller – EXE creation
+
+Git & GitHub – version control
+
+📁 Project Structure
 NetworkPacketAnalyzer/
 ├── analyzer/              # Packet analysis & report generation
 │   ├── protocol_decoder.py
@@ -40,97 +75,127 @@ NetworkPacketAnalyzer/
 │   └── packet_capture.py
 ├── gui/                   # GUI application
 │   └── gui_app.py
-├── main.py                # Entry point
+├── main.py                # Application entry point
 ├── test_report.py         # Testing script
 ├── README.md              # Project documentation
 └── .gitignore             # Git ignore rules
 ⚙️ How It Works
 
-Captures live packets using Scapy
+Captures live network packets using Scapy
 
-Decodes IP, ports, and protocol
+Decodes each packet to extract:
 
-Maintains packet statistics
+IP addresses
 
-Detects high traffic from single IPs
+Ports
 
-Generates a final report
+Protocol information
 
-Displays everything in the GUI
+Maintains packet statistics internally
+
+Detects high traffic from a single IP using predefined thresholds
+
+Generates a final network analysis report
+
+Displays all results in a GUI window
 
 🛠 Installation & Setup
-Prerequisites
+1️⃣ Prerequisites
 
-Python 3.9+
+Python 3.9 or higher
 
 Windows OS
 
-Administrator privileges
+Administrator privileges (required for packet capture)
 
-Install Dependencies
+2️⃣ Install Dependencies
 pip install scapy
 ▶️ How to Run
 
-⚠️ Run Command Prompt as Administrator
+⚠️ IMPORTANT:
+Run Command Prompt as Administrator.
 
 python -m gui.gui_app
-🪟 Windows EXE Version
 
-Build EXE:
+The GUI window will open and begin capturing network packets.
+
+🪟 Windows EXE Version (No Python Required)
+
+You can build a standalone Windows executable using PyInstaller:
 
 pyinstaller --onefile --windowed gui/gui_app.py
 
-Output:
+After build:
 
 dist/gui_app.exe
+EXE Features
+
+No Python installation required
+
+Easily shareable
+
+Runs on any Windows PC
+
+📌 Recommended: upload the EXE using GitHub Releases.
+
 📊 Output & Reports
 
-Live packet capture in GUI
+Live packet details displayed in the GUI
 
-Real-time traffic warnings
+Real-time high-traffic warnings
 
-Final report with:
+Final report includes:
 
-Total packets
+Total packets captured
 
 Packet count per IP
 
-Protocol statistics
+Protocol-wise statistics
+
+Detected anomalies
 
 🎓 Use Cases
 
 Computer Networks mini / final-year project
 
-Cybersecurity fundamentals
+Cybersecurity fundamentals practice
 
-Packet analysis learning
+Packet analysis learning tool
 
-GUI-based Python application
+Network monitoring demonstrations
 
 ⚠️ Limitations
 
-Windows only
+Works only on Windows OS
 
-Requires admin privileges
+Requires administrator privileges
 
-Educational use only
+Not intended for production network monitoring
+
+For educational use only
 
 🚀 Future Enhancements
 
-Protocol graphs
+Protocol-wise graphical analysis (TCP / UDP / ICMP)
 
-PDF report export
+Export reports as PDF
 
-Advanced attack detection
+Advanced attack detection (SYN flood, port scanning)
 
 Cross-platform support
-## 👨‍💻 Author
 
-Mohan  
+Enhanced GUI design
+
+👨‍💻 Author
+
+Mohan
+GitHub: 👉 https://github.com/Mohan-10-15
 
 ⚠️ Disclaimer
 
-This project is strictly for educational purposes only.
+This project is strictly for educational and learning purposes only.
 Do NOT use this application on networks without proper authorization.
+
+The author is not responsible for any misuse of this software.
 
 ⭐ If you found this project helpful, consider giving it a star on GitHub!
