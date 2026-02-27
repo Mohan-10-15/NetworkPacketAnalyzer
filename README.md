@@ -168,10 +168,10 @@ Cross-platform support
 
 Improved GUI design
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Mohan
-GitHub: https://github.com/Mohan-10-15
+**Mohan**  
+GitHub: [https://github.com/Mohan-10-15](https://github.com/Mohan-10-15)
 
 ⚠️ Disclaimer
 
