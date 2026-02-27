@@ -168,11 +168,10 @@ Cross-platform support
 
 Improved GUI design
 
-## 👨‍💻 Author
+👨‍💻 Author
 
-**Mohan**  
-🔗 GitHub: https://github.com/Mohan-10-15
-⚠️ Disclaimer
+Mohan
+GitHub: Mohan-10-15
 
 This project is strictly for educational and learning purposes only.
 Do NOT use this application on networks without proper authorization.
