@@ -6,23 +6,6 @@ This project is designed for **Computer Networks learning**, **Cybersecurity bas
 
 ---
 
-## 📌 Table of Contents
-- Features
-- Technologies Used
-- Project Structure
-- How It Works
-- Installation & Setup
-- How to Run
-- Windows EXE Version
-- Output & Reports
-- Use Cases
-- Limitations
-- Future Enhancements
-- Author
-- Disclaimer
-
----
-
 ## 🚀 Features
 - Live network packet capturing  
 - Supports **TCP, UDP, ICMP**  
@@ -33,16 +16,16 @@ This project is designed for **Computer Networks learning**, **Cybersecurity bas
 - High traffic detection with warnings  
 - Final network analysis report generation  
 - Graphical User Interface (GUI)  
-- Can be converted into a standalone **Windows EXE**
+- Standalone **Windows EXE** support  
 
 ---
 
 ## 🧠 Technologies Used
 - Python 3  
-- Scapy – packet capturing and decoding  
-- Tkinter – GUI development  
-- PyInstaller – EXE creation  
-- Git & GitHub – version control  
+- Scapy  
+- Tkinter  
+- PyInstaller  
+- Git & GitHub  
 
 ---
 
@@ -63,119 +46,93 @@ NetworkPacketAnalyzer/
 └── .gitignore             # Git ignore rules
 ⚙️ How It Works
 
-Captures live network packets using Scapy
+Captures live packets using Scapy
 
-Decodes each packet to extract:
+Decodes IP, ports, and protocol
 
-IP addresses
+Maintains packet statistics
 
-Ports
+Detects high traffic from single IPs
 
-Protocol type
+Generates a final report
 
-Maintains packet statistics internally
-
-Detects high traffic from a single IP using thresholds
-
-Generates a final analysis report
-
-Displays all results in the GUI
+Displays everything in the GUI
 
 🛠 Installation & Setup
-1️⃣ Prerequisites
+Prerequisites
 
-Python 3.9 or higher
+Python 3.9+
 
 Windows OS
 
-Administrator privileges (required for packet capture)
+Administrator privileges
 
-2️⃣ Install Dependencies
+Install Dependencies
 pip install scapy
 ▶️ How to Run
 
-⚠️ IMPORTANT:
-Run Command Prompt as Administrator.
+⚠️ Run Command Prompt as Administrator
 
 python -m gui.gui_app
+🪟 Windows EXE Version
 
-The GUI window will open and start capturing packets.
-
-🪟 Windows EXE Version (No Python Needed)
-
-Build a standalone EXE using PyInstaller:
+Build EXE:
 
 pyinstaller --onefile --windowed gui/gui_app.py
 
-After build:
+Output:
 
 dist/gui_app.exe
-EXE Features
-
-Does NOT require Python
-
-Can be shared with anyone
-
-Runs on Windows PCs
-
-📌 Recommended to upload the EXE using GitHub Releases.
-
 📊 Output & Reports
 
-Live packet details shown in GUI
+Live packet capture in GUI
 
-High traffic warnings displayed in real time
+Real-time traffic warnings
 
-Final report includes:
+Final report with:
 
-Total packets captured
+Total packets
 
 Packet count per IP
 
-Protocol-wise statistics
-
-Detected anomalies
+Protocol statistics
 
 🎓 Use Cases
 
 Computer Networks mini / final-year project
 
-Cybersecurity fundamentals practice
+Cybersecurity fundamentals
 
-Packet analysis learning tool
+Packet analysis learning
 
-Network monitoring demonstration
+GUI-based Python application
 
 ⚠️ Limitations
 
-Works only on Windows
+Windows only
 
-Requires administrator access
+Requires admin privileges
 
-Not intended for production use
-
-Educational purpose only
+Educational use only
 
 🚀 Future Enhancements
 
-Protocol-wise graphs (TCP / UDP / ICMP)
+Protocol graphs
 
-Export reports as PDF
+PDF report export
 
-Advanced attack detection (SYN flood, port scanning)
+Advanced attack detection
 
 Cross-platform support
-
-Improved GUI design
 
 👨‍💻 Author
 
 Mohan
-GitHub: Mohan-10-15
+🔗 GitHub: https://github.com/Mohan-10-15
 
-This project is strictly for educational and learning purposes only.
+⚠️ Disclaimer
+
+This project is strictly for educational purposes only.
 Do NOT use this application on networks without proper authorization.
-
-The author is not responsible for any misuse of this software.
 
 ⭐ If you found this project helpful, consider giving it a star on GitHub!
