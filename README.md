@@ -1,45 +1,39 @@
-🕵️‍♂️ Network Packet Analyzer 📡
+# 🕵️‍♂️ Network Packet Analyzer 📡
 
-A GUI-based Network Packet Analyzer built using Python that captures live network packets, analyzes network protocols, detects abnormal traffic, and generates a final network analysis report.
+A **GUI-based Network Packet Analyzer** built using **Python** that captures live network packets, analyzes network protocols, detects abnormal traffic, and generates a final network analysis report.
 
-This project is intended for Computer Networks learning, Cybersecurity fundamentals, and mini / final-year academic projects.
+This project is intended for **Computer Networks learning**, **Cybersecurity fundamentals**, and **mini / final-year academic projects**.
 
+---
 
-🚀 Features
+## 🚀 Features
 
-Live network packet capturing
+- Live network packet capturing  
+- Supports **TCP, UDP, and ICMP** protocols  
+- Displays:
+  - Source IP & Destination IP  
+  - Source Port & Destination Port  
+  - Protocol type  
+- High-traffic detection with real-time warnings  
+- Final network analysis report generation  
+- User-friendly **Graphical User Interface (GUI)**  
+- Can be converted into a standalone **Windows EXE**
 
-Supports TCP, UDP, and ICMP protocols
+---
 
-Displays:
+## 🧠 Technologies Used
 
-Source IP & Destination IP
+- Python 3  
+- Scapy – packet capturing and decoding  
+- Tkinter – GUI development  
+- PyInstaller – EXE creation  
+- Git & :contentReference[oaicite:0]{index=0} – version control  
 
-Source Port & Destination Port
+---
 
-Protocol type
+## 📁 Project Structure
 
-High-traffic detection with real-time warnings
-
-Final network analysis report generation
-
-User-friendly Graphical User Interface (GUI)
-
-Can be converted into a standalone Windows EXE
-
-🧠 Technologies Used
-
-Python 3
-
-Scapy – packet capturing and decoding
-
-Tkinter – GUI development
-
-PyInstaller – EXE creation
-
-Git & GitHub – version control
-
-📁 Project Structure
+```text
 NetworkPacketAnalyzer/
 ├── analyzer/              # Packet analysis & report generation
 │   ├── protocol_decoder.py
@@ -109,7 +103,7 @@ Easily shareable
 
 Runs on any Windows PC
 
-📌 Recommended: upload the EXE using GitHub Releases.
+📌 Recommended: Upload the EXE using GitHub Releases.
 
 📊 Output & Reports
 
@@ -162,7 +156,7 @@ Enhanced GUI design
 👨‍💻 Author
 
 Mohan
-GitHub: 👉 https://github.com/Mohan-10-15
+GitHub: https://github.com/Mohan-10-15
 
 ⚠️ Disclaimer
 
