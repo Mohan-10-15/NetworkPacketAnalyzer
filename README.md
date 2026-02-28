@@ -155,8 +155,8 @@ Enhanced GUI design
 
 👨‍💻 Author
 
-Mohan
-GitHub: https://github.com/Mohan-10-15
+Mohanakrishnan C
+
 
 ⚠️ Disclaimer
 
