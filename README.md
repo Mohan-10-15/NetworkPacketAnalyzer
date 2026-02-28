@@ -53,7 +53,6 @@ This project is intended for **Computer Networks learning**, **Cybersecurity fun
 - Administrator privileges (required for packet capture)
 
 ### 2️⃣ Install Dependencies
-``
 pip install scapy
 ### ▶️ How to Run
 
@@ -75,61 +74,61 @@ After build:
 dist/gui_app.exe
 EXE Features
 
-No Python installation required
+- No Python installation required
 
-Easily shareable
+- Easily shareable
 
-Runs on any Windows PC
+- Runs on any Windows PC
 
 📌 Recommended: Upload the EXE using GitHub Releases.
 
 📊 Output & Reports
 
-Live packet details displayed in the GUI
+- Live packet details displayed in the GUI
 
-Real-time high-traffic warnings
+- Real-time high-traffic warnings
 
-Final report includes:
+- Final report includes:
 
-Total packets captured
+     - Total packets captured
 
-Packet count per IP
+     - Packet count per IP
 
-Protocol-wise statistics
+     - Protocol-wise statistics
 
-Detected anomalies
+     - Detected anomalies
 
 🎓 Use Cases
 
-Computer Networks mini / final-year project
+- Computer Networks mini / final-year project
 
-Cybersecurity fundamentals practice
+- Cybersecurity fundamentals practice
 
-Packet analysis learning tool
+- Packet analysis learning tool
 
-Network monitoring demonstrations
+- Network monitoring demonstrations
 
 ⚠️ Limitations
 
-Works only on Windows OS
+- Works only on Windows OS
 
-Requires administrator privileges
+- Requires administrator privileges
 
-Not intended for production network monitoring
+- Not intended for production network monitoring
 
-For educational use only
+- For educational use only
 
 🚀 Future Enhancements
 
-Protocol-wise graphical analysis (TCP / UDP / ICMP)
+- Protocol-wise graphical analysis (TCP / UDP / ICMP)
 
-Export reports as PDF
+- Export reports as PDF
 
-Advanced attack detection (SYN flood, port scanning)
+- Advanced attack detection (SYN flood, port scanning)
 
-Cross-platform support
+- Cross-platform support
 
-Enhanced GUI design
+- Enhanced GUI design
 
 👨‍💻 Author
 
